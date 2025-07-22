@@ -42,12 +42,12 @@ inputRef.current.value=""
     }
   };
 
-  useEffect(() => {
-    alert("Welcome to weather app. Made by Bilal")
-  }, []);
+//   useEffect(() => {
+//     alert("Welcome to weather app. Made by Bilal")
+//   }, []);
 
   return (
-    <div className='bg-blue-900 p-5 h-1/3 py-5 place-self-center mt-20 rounded-2xl'>
+    <div className=' z-1 bg-blue-900 p-5 h-1/3 py-5 place-self-center mt-18 rounded-2xl'>
         <div className='text-white text-3xl flex justify-center font-semibold'>Weather App</div>
       <div className='mt-5 flex items-center gap-5'>
         <input ref={inputRef} className='bg-amber-50 p-2 rounded w-[80%]' placeholder='Search' type="text" />
