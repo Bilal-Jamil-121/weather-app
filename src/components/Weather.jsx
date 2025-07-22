@@ -38,6 +38,7 @@ const inputRef = useRef()
 inputRef.current.value=""
     } catch (error) {
       alert("Error fetching weather:", error);
+      inputRef.current.value=""
     }
   };
 
