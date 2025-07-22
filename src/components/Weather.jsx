@@ -37,14 +37,14 @@ const inputRef = useRef()
       });
 inputRef.current.value=""
     } catch (error) {
-      alert("Error fetching weather:", error);
+      alert("City not found in records, Error fetching weather: ", error);
       inputRef.current.value=""
     }
   };
 
-//   useEffect(() => {
-//     search();
-//   }, []);
+  useEffect(() => {
+    alert("Welcome to weather app. Made by Bilal")
+  }, []);
 
   return (
     <div className='bg-blue-900 p-5 h-1/3 py-5 place-self-center mt-20 rounded-2xl'>
